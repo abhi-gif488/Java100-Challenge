@@ -1,8 +1,2 @@
 CommitSM → Info
-1.feat → new feature
-2.fix → bug fix
-3.docs → documentation
-4.style → formatting (no logic change)
-5.refactor → code improvement
-6.test → adding tests
-7.chore → maintenance work
+<img width="488" height="297" alt="image" src="https://github.com/user-attachments/assets/b081e1ec-3e82-40b4-b671-5cc734a727cc" />
