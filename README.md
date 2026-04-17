@@ -1,1 +1,8 @@
-<img width="473" height="351" alt="image" src="https://github.com/user-attachments/assets/150249f2-1057-46a8-b7ee-24c915340321" />
+CommitSM → Info
+1.feat → new feature
+2.fix → bug fix
+3.docs → documentation
+4.style → formatting (no logic change)
+5.refactor → code improvement
+6.test → adding tests
+7.chore → maintenance work
