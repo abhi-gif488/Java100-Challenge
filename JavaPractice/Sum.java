@@ -19,3 +19,5 @@ public class Sum {
 
   }
 }
+
+// In this program, we learned how can we take input from the user and perform addtion of two integers and floats as well. We used the scanner class to read the input from the user and then performed the addition operation and printed the result. We can also take input of other datatypes like double, long etc. using the appropriate methods of the Scanner class (e.g., nextDouble(), nextLong(), etc.).
