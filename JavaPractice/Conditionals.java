@@ -29,4 +29,6 @@ public class Conditionals {
   
 }
 
+//here we learned about if-else staements and how to use them to make decioions in our code. we also learned about muktiple conditions using else if statements.
+
 
