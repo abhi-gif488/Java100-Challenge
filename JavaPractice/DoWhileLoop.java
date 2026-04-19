@@ -13,7 +13,7 @@ public class DoWhileLoop {
             do{
                  //body
             }
-            while(condition);
+     3rd:       while(condition);
 
      */
     
