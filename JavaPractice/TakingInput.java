@@ -1,4 +1,3 @@
-package JavaPractice;
 import java.util.Scanner;
 
 public class TakingInput {
