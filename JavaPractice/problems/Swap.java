@@ -12,12 +12,12 @@ public class Swap {
     System.out.print("Enter second Number: ");
     int num2 = sc.nextInt();
 
-    int[] swapped = Swaping(num1, num2);
+    int[] swapped = Swapping (num1, num2);//it's taking numbers from the user and initialising from the Swapping() function
 
     System.out.println("After swapping: " + swapped[0] + " " + swapped[1]);
   }
 
-  static int[] Swaping(int a, int b){
+  static int[] Swapping(int a, int b){
     int temp = a;
     a = b;
     b = temp;
