@@ -40,8 +40,11 @@ public class Swap {
     a = b;
     b = temp;
 
-    //or simply write System.out.println("Swapped number is "+ a +"" + b)::
+   // Alternative: you could print directly instead of returning
+    // System.out.println("Swapped number is " + a + " " + b);
 
-    return new int[]{a, b};
+    return new int[]{a, b}; 
+    // Returns swapped values as an array
+    // new int[]{a, b} → creates array with two elements
   }
 }
