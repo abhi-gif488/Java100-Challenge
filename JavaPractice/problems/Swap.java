@@ -19,8 +19,11 @@ public class Swap {
     System.out.print("Enter second Number: ");
     int num2 = sc.nextInt();
 
-    int[] swapped = Swapping (num1, num2);//it's taking numbers from the user and initialising from the Swapping() function
+    int[] swapped = Swapping (num1, num2);
 
+    // Calls Swaping method and stores returned array in 'swapped'
+    // swapped[0] = first value, swapped[1] = second value
+    
     System.out.println("After swapping: " + swapped[0] + " " + swapped[1]);
   }
 
