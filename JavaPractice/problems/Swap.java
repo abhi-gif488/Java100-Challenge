@@ -22,7 +22,7 @@ public class Swap {
     a = b;
     b = temp;
 
-    //or simply write System.out.println("Swapped number is "+ a +"" + b)
+    //or simply write System.out.println("Swapped number is "+ a +"" + b)::
 
     return new int[]{a, b};
   }
