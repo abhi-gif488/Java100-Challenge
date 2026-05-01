@@ -25,9 +25,17 @@ public class Swap {
     // swapped[0] = first value, swapped[1] = second value
     
     System.out.println("After swapping: " + swapped[0] + " " + swapped[1]);
+    // Prints swapped values using array indexing
   }
 
   static int[] Swapping(int a, int b){
+
+     // Method declaration
+    // static → can be called without object
+    // int[] → returns an array of integers
+    // Swaping → method name
+    // int a, int b → parameters (inputs)
+    
     int temp = a;
     a = b;
     b = temp;
