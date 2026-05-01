@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Swap {
   public static void main(String[] args) {
+
+     // Main method → starting point of Java program
+    // public → accessible from anywhere
+    // static → no object needed to call it
+    // void → does not return anything
+    // String[] args → command line arguments
+    
     Scanner sc = new Scanner(System.in);
 
     System.out.print("Enter first Number: ");
