@@ -20,10 +20,12 @@ public class problem2 {
     if(ch>='a' && ch<='z'){
        // Checks if character is between 'a' and 'z' (ASCII comparison)
       System.out.println("Lowercase");
+       // Executes if condition is true
     }
 
     else{
       System.out.println("Uppercase");
+       // Executes if condition is false
     }
 
 
