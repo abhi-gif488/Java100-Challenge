@@ -18,6 +18,7 @@ public class problem2 {
     System.out.println(ch);
     
     if(ch>='a' && ch<='z'){
+       // Checks if character is between 'a' and 'z' (ASCII comparison)
       System.out.println("Lowercase");
     }
 
