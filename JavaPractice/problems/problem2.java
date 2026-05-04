@@ -28,6 +28,9 @@ public class problem2 {
        // Executes if condition is false
     }
 
+     sc.close(); 
+    // Closes Scanner (good practice to avoid resource leak)
+
 
   }
 /* This Java program reads a single character from the user and determines whether it is lowercase or uppercase. It uses a `Scanner` to take input, trims any extra spaces, and extracts the first character entered. The program then checks if the character falls between `'a'` and `'z'` in ASCII values; if so, it prints “Lowercase”. Otherwise, it prints “Uppercase”. Finally, it also displays the entered character before showing the result.
