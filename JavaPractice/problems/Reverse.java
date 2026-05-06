@@ -18,7 +18,7 @@ public class Reverse {
     }
     System.out.println("So the reverse of number is : "+ reverse);
     //this will print the reverse of the input number
-    We extract digits using %10, build the reverse by multiplying by 10, and remove digits using /10 until the number becomes 0.
+    //We extract digits using %10, build the reverse by multiplying by 10, and remove digits using /10 until the number becomes 0.
 
   }
   
