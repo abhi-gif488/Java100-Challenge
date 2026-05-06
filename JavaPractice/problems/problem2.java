@@ -9,17 +9,27 @@ public class problem2 {
 
     Scanner sc= new Scanner(System.in);
 
-    char ch = sc.next().trim().charAt(0);
+     char ch = sc.next().trim().charAt(0); 
     
+    // sc.next() → takes input as a string
+    // trim() → removes extra spaces
+    // charAt(0) → extracts the first character from input
+  
     System.out.println(ch);
     
     if(ch>='a' && ch<='z'){
+       // Checks if character is between 'a' and 'z' (ASCII comparison)
       System.out.println("Lowercase");
+       // Executes if condition is true
     }
 
     else{
       System.out.println("Uppercase");
+       // Executes if condition is false
     }
+
+     sc.close(); 
+    // Closes Scanner (good practice to avoid resource leak)
 
 
   }
