@@ -5,6 +5,9 @@ public class Shadowing {
     System.out.println("Hey abhhishek here we will learn about the concept 'Shadowing'!!\ndamn excited right...\nlets go...");
 System.out.println("the value of 'x' will be remain same in main block- that is: "+ x);
     int x; //this is known as declaring   - the class variable at line 2 is shadowed by this..
+
+   // System.out.println(x);- this give error because : scope will begin when value is initialize
+
     x=25;  //and this is known as initializing
 
     System.out.println("the value of x is: "+x);
