@@ -46,7 +46,7 @@ public class Overloading {
   }
 
   static int sum(int a, int b, int c){
-
+    // Overloaded method with 3 parameters.
     
     return a+b-c;
   }
