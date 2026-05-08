@@ -24,7 +24,12 @@ public class Overloading {
     System.out.println(summ);
   }
   static void fun(int ...v){
+    // Variable-length argument method for integers.
+    // It can take any number of int values.
+
      System.out.println(Arrays.toString(v));
+     // Converts the integer array into readable form
+     // and prints it.
   }
 
   static void fun(String ...v){
