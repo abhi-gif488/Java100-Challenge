@@ -3,11 +3,24 @@ import java.util.Arrays;
 public class Overloading {
 
   public static void main(String[] args) {
-    //fun(); - always remember the ambiuous method
+
+      // fun();
+    // If we call fun() with no arguments,
+    // Java gets confused because both fun(int...)
+    // and fun(String...) can accept empty values.
+    // This situation is called an ambiguous method call.
+
     // fun(2,3,4,5);
+    // This would call the int version of fun()
+    // because all values are integers.
+
     fun("abh", "kum");
+     // This calls the String version of fun()
+    // because we passed String values.
 
     int summ = sum(7,8,11);
+     // Calls the sum() method with 3 parameters.
+
     System.out.println(summ);
   }
   static void fun(int ...v){
