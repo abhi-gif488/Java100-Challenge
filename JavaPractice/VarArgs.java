@@ -8,6 +8,8 @@ public class VarArgs {
     fun(2,3,4,4,5,5,6,6,7,8);    //initilising the array value 
   }
   static void fun(int ...v){  //this three dots '...' means taking input or value as n number of array value of any datatype
+
+  
   //static void fun(String ...v) this way..
 
     System.out.println(Arrays.toString(v));
