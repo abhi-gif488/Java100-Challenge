@@ -32,8 +32,12 @@ public class Overloading {
      // and prints it.
   }
 
-  static void fun(String ...v){
+  static void fun(String ...v){ // Variable-length argument method for Strings.
+    // It can take any number of String values.
+
     System.out.println(Arrays.toString(v));
+    // Converts the String array into readable form
+    // and prints it.
   }
   
 
@@ -42,6 +46,8 @@ public class Overloading {
   }
 
   static int sum(int a, int b, int c){
+
+    
     return a+b-c;
   }
   
