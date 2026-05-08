@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Array {
    public static void main(String[] args) {
     System.out.println("Here we learn about array basics");
@@ -7,7 +9,7 @@ public class Array {
      arr[2]=4;
     arr[3]=9;
      arr[4]=8;
-     System.out.println("The value of the given index is: "+ arr[3]);
+     System.out.println(Arrays.toString(arr)); //may be its value is [5,7,4,9,8]-- and yes the output is same!
    }
   
 }
