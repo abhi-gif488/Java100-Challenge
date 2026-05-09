@@ -29,10 +29,15 @@ for (int row = 0; row <3; row++) {
   //  }
 
    //second and best method to print
-   for(int row=0; row< arr.length; row++){
-    System.out.println(Arrays.toString(arr[row])) ;
-   }
+  //  for(int row=0; row< arr.length; row++){
+  //   System.out.println(Arrays.toString(arr[row])) ;
+  //  }
 
+
+  //third method- this is enhanced forloop method to get array
+  for( int[] elemt : arr){
+    System.out.println(Arrays.toString(elemt));
 
   }
+}
 }
