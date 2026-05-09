@@ -20,14 +20,19 @@ for (int row = 0; row <3; row++) {
   // first method to get output
   
 }
-  for(int row=0; row<3; row++){
-    for(int col=0; col<arr[row].length; col++){
-        System.out.print(arr[row][col]+ " ");
+  // for(int row=0; row<3; row++){
+  //   for(int col=0; col<arr[row].length; col++){
+  //       System.out.print(arr[row][col]+ " ");
 
-    }
-    System.out.println();
+  //   }
+  //   System.out.println();
+  //  }
+
+   //second and best method to print
+   for(int row=0; row< arr.length; row++){
+    System.out.println(Arrays.toString(arr[row])) ;
    }
 
-  }
 
   }
+}
