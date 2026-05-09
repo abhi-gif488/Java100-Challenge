@@ -9,15 +9,15 @@ public class StringArray {
     strr[0] = "abhi";
     strr[1] = "rakhi";
     strr[2] = "tiger";
-    // System.out.println(strr[2]); //this is my first method to get String..
+    // System.out.println(strr[2]); //this is my first method to get String.. 
    
     // for (int i = 0; i < strr.length; i++) {
     //   strr[i]= sc.next(); 
     // }
-    //  System.out.println(Arrays.toString(strr));
+    //  System.out.println(Arrays.toString(strr)); this is the best method to get stringArray value -second method
   
     for (int i = 0; i < strr.length; i++) {
-        System.out.print(strr[i]+ " ");
+        System.out.print(strr[i]+ " ");       //and this is the third method to get 
     }
     }
   
