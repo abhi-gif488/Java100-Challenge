@@ -37,6 +37,7 @@ for (int row = 0; row <3; row++) {
   //third method- this is enhanced forloop method to get array
   for( int[] elemt : arr){
     System.out.println(Arrays.toString(elemt));
+    
 
   }
 }
