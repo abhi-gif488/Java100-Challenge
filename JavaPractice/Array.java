@@ -10,7 +10,7 @@ public class Array {
     // arr[1]=7;
     //  arr[2]=4;
     // arr[3]=9;
-    //  arr[4]=8;
+    //  arr[4]=8;//first method-call them manually
     //  System.out.println(Arrays.toString(arr)); //may be its value is [5,7,4,9,8]-- and yes the output is same!
 
 
@@ -24,12 +24,12 @@ public class Array {
       
      
      }
-     System.out.println(Arrays.toString(arr)); 
+     System.out.println(Arrays.toString(arr)); //third method-best method
      
      //System.out.println(arr[i]+ " "); it will work the same as down their but scope of 'i' is only whithin the forloop block.
 
     //  for (int i = 0; i < arr.length; i++) {
-    //     System.out.print(arr[i]+ " ");
+    //     System.out.print(arr[i]+ " "); //second method
     //  }
    }
 
